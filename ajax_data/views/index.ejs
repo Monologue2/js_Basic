@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <title>Document</title>
+    <script>
+        $(function(){
+            $("#btn").on("click", function(){
+                    $.ajax({
+                    url: "/ajax", // 클라이언트가 요청을 보낼 서버의 URL 주소
+                    data: { name: "테스트 데이터용" },                // HTTP 요청과 함께 서버로 보낼 데이터
+                    type: "POST",                             // HTTP 요청 방식(GET, POST)
+                    dataType: "json"                         // 서버에서 보내줄 데이터의 타입
+                }).done(function(data){ //요청 성공시
+                    console.log(data)
+                    $("<h1>").text(data.name).appendTo("body");
+                    $("<div class=\"content\">").html(data.html).appendTo("body");
+                })
+            })
+        });
+    </script>
+</head>
+<body>
+    <h1><%= title %></h1>
+    <form id="form1" name="form1" method="post" action="/helo"
+            onsubmit="return false;">
+        <input type="button" id="btn1" value="get">
+        <input type="button" id="btn2" value="post">
+    </form>
+</body>
+</html>
