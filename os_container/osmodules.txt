@@ -1,0 +1,184 @@
+-----임시 저장 폴더의 위치-----
+/tmp
+-----CPU의 endianness-----
+LE
+-----호스트 이름(컴퓨터 이름)-----
+a49ac99184f2
+-----운영체제 이름-----
+Linux
+-----운영체제 플랫폼-----
+linux
+-----운영체제 아키텍처-----
+x64
+-----운영체제 버전-----
+5.15.0-58-generic
+-----운영체제가 실행된 시간-----
+1657385.38
+-----로드 에버리지 정보를 담은 배열-----
+[ 6.18, 6.22, 6.23 ]
+-----시스템의 총 메모리-----
+67101245440
+-----시스템의 가용 메모리-----
+58021101568
+-----CPU의 정보를 담은 객체-----
+[
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 4000,
+    times: {
+      user: 1000346990,
+      nice: 23200,
+      sys: 10055610,
+      idle: 646185960,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 4000,
+    times: {
+      user: 1003759000,
+      nice: 34100,
+      sys: 11416520,
+      idle: 644015850,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 4000,
+    times: {
+      user: 1004217580,
+      nice: 22750,
+      sys: 11384740,
+      idle: 643713270,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3999,
+    times: {
+      user: 1003768170,
+      nice: 19000,
+      sys: 11404860,
+      idle: 644259930,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 4000,
+    times: {
+      user: 1004521110,
+      nice: 41000,
+      sys: 11737600,
+      idle: 643320060,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3999,
+    times: {
+      user: 1002481420,
+      nice: 30420,
+      sys: 10355680,
+      idle: 643888680,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 4000,
+    times: {
+      user: 41792750,
+      nice: 127180,
+      sys: 17106250,
+      idle: 1590156880,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3500,
+    times: {
+      user: 44096270,
+      nice: 73440,
+      sys: 18647900,
+      idle: 1590476780,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3500,
+    times: {
+      user: 44909480,
+      nice: 77140,
+      sys: 18654770,
+      idle: 1589190620,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3500,
+    times: {
+      user: 47185730,
+      nice: 62940,
+      sys: 19314970,
+      idle: 1587518190,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3500,
+    times: {
+      user: 47142140,
+      nice: 74840,
+      sys: 19364960,
+      idle: 1587538870,
+      irq: 0
+    }
+  },
+  {
+    model: 'Intel(R) Core(TM) i7-7800X CPU @ 3.50GHz',
+    speed: 3500,
+    times: {
+      user: 42826560,
+      nice: 66660,
+      sys: 18415940,
+      idle: 1585377250,
+      irq: 0
+    }
+  }
+]
+-----네트워크 인터페이스 정보를 담은 배열-----
+{
+  lo: [
+    {
+      address: '127.0.0.1',
+      netmask: '255.0.0.0',
+      family: 'IPv4',
+      mac: '00:00:00:00:00:00',
+      internal: true,
+      cidr: '127.0.0.1/8'
+    }
+  ],
+  eth0: [
+    {
+      address: '172.17.0.3',
+      netmask: '255.255.0.0',
+      family: 'IPv4',
+      mac: '02:42:ac:11:00:03',
+      internal: false,
+      cidr: '172.17.0.3/16'
+    }
+  ]
+}
+-----운영체제의 개행 문자(\n 이나 \r\n 같은 문자-----
+
+
+-----
