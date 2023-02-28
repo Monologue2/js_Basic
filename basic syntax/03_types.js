@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 //기본 자료형
 
 //숫자 및 숫자의 연산자, javascript는 연산자 우선순위를 고려한다

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
 함수의 기본 형태 
 function <name>(<parameter>){
