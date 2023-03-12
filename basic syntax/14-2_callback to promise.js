@@ -13,6 +13,7 @@ function findAndSaveUser(Users){
             }
             Users.fineOne({gender : 'm'}, (err, user) => { // 세번째 콜백
                 // 생략 ...
+                //여기서 또 콜백을 하면 더 깊어지며, 한번 더 err 처리를 해야한다.
             })
         })
     })
